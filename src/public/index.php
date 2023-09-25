@@ -1,9 +1,8 @@
 <?php
 declare(strict_types = 1);
-require_once '../Animal.php';
+require_once '../Transaction.php';
 
-$dog = new Animal('dog', 4);
-var_dump($dog);
+
 
 
 ?>
