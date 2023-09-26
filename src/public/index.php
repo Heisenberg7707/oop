@@ -1,25 +1,19 @@
 <?php
 declare(strict_types = 1);
-#require_once '../One/Transaction.php';
-require_once '../Two/Transaction.php';
-require_once '../Notification/Email.php';
-require_once '../One/CustomProfile.php';
 
-spl_autoload_register(function($class){
-    $path = __DIR__.'/../'.str_replace('\\', '/', $class).'.php';
-    require_once $path;
-    echo "--0-$path-0--";
-});
+use One\CustomProfile;
+use Ramsey\Uuid\UuidFactory;
+use One\Transaction;
+use Two\Transaction as TwoTransaction;
 
-use \One\CustomProfile;
-use \One\Transaction;
-use \Two\Transaction as SecondTransaction;
-$transaction2 = new SecondTransaction;
-$transaction = new Transaction;
+require __DIR__.'/../vendor/autoload.php';
+
+$id = new UuidFactory();
+echo $id->uuid4().'</br>';
+
+$transaction1 = new Transaction;
+$transaction2 = new TwoTransaction;
 $customer = new CustomProfile;
-var_dump($transaction);
-var_dump($transaction2);
-var_dump($customer);
-
+var_dump($transaction1);
 
 ?>
