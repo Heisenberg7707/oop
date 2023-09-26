@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
-require_once '../One/Transaction.php';
-require_once '../Two/Transaction.php';
-require_once '../Notification/Email.php';
-require_once '../One/CustomProfile.php';
+require_once __DIR__.'/../One/Transaction.php';
+require_once __DIR__.'/../Two/Transaction.php';
+require_once __DIR__.'/../Notification/Email.php';
+require_once __DIR__.'/../One/CustomProfile.php';
 
 #use One\{Transaction, CustomProfile};
 use One as First;
