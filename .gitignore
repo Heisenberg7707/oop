@@ -1,4 +1,3 @@
-src/vendor/
-src/composer.json
-src/composer.lock
-scr/.gitignore
+/src/vendor/
+/src/composer.json
+/src/composer.lock
