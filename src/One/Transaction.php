@@ -12,10 +12,6 @@ function explode($first='first', $second='second'){
 
 class Transaction
 {
-    public function __construct()
-    {
-        var_dump(explode());
-    }
 
     public function getNamespace()
     {
