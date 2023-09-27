@@ -34,7 +34,7 @@ class ComposerStaticInitaae7eb16d4824ae2ebc01a35b2511edd
     public static $prefixDirsPsr4 = array (
         'Transactions\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/Transaction',
+            0 => __DIR__ . '/../..' . '/Transactions',
         ),
         'Symfony\\Polyfill\\Php81\\' => 
         array (
