@@ -1,7 +1,12 @@
 <?php
 declare(strict_types = 1);
-require_once '../Transaction.php';
 
+use App\Example;
+
+require __DIR__.'/../vendor/autoload.php';
+
+$example = new Example;
+$example->greeting();
 
 
 
