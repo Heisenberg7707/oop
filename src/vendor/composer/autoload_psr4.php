@@ -6,10 +6,9 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Two\\' => array($baseDir . '/Two'),
+    'Transactions\\' => array($baseDir . '/Transaction'),
     'Symfony\\Polyfill\\Php81\\' => array($vendorDir . '/symfony/polyfill-php81'),
     'Ramsey\\Uuid\\' => array($vendorDir . '/ramsey/uuid/src'),
     'Ramsey\\Collection\\' => array($vendorDir . '/ramsey/collection/src'),
-    'One\\' => array($baseDir . '/One'),
     'Brick\\Math\\' => array($vendorDir . '/brick/math/src'),
 );

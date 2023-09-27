@@ -14,7 +14,7 @@ class ComposerStaticInitaae7eb16d4824ae2ebc01a35b2511edd
     public static $prefixLengthsPsr4 = array (
         'T' => 
         array (
-            'Two\\' => 4,
+            'Transactions\\' => 13,
         ),
         'S' => 
         array (
@@ -25,10 +25,6 @@ class ComposerStaticInitaae7eb16d4824ae2ebc01a35b2511edd
             'Ramsey\\Uuid\\' => 12,
             'Ramsey\\Collection\\' => 18,
         ),
-        'O' => 
-        array (
-            'One\\' => 4,
-        ),
         'B' => 
         array (
             'Brick\\Math\\' => 11,
@@ -36,9 +32,9 @@ class ComposerStaticInitaae7eb16d4824ae2ebc01a35b2511edd
     );
 
     public static $prefixDirsPsr4 = array (
-        'Two\\' => 
+        'Transactions\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/Two',
+            0 => __DIR__ . '/../..' . '/Transaction',
         ),
         'Symfony\\Polyfill\\Php81\\' => 
         array (
@@ -51,10 +47,6 @@ class ComposerStaticInitaae7eb16d4824ae2ebc01a35b2511edd
         'Ramsey\\Collection\\' => 
         array (
             0 => __DIR__ . '/..' . '/ramsey/collection/src',
-        ),
-        'One\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/One',
         ),
         'Brick\\Math\\' => 
         array (
