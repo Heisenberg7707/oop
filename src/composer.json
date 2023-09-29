@@ -4,7 +4,9 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\" : "App/"
+            "App\\" : "App/",
+            "Abstraction\\" : "Abstraction/",
+            "Encapsulation\\" : "Encapsulation/"
         }
     }
 }
