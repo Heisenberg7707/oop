@@ -1,12 +1,16 @@
 <?php
 declare(strict_types = 1);
 
-use App\Example;
+use App\Formatter;
 
 require __DIR__.'/../vendor/autoload.php';
 
-$example = new Example;
-$example->greeting();
+$f = Formatter::createInstance();
+
+echo 'Hello';
+$f->enter(4);
+echo 'world';
+
 
 
 
