@@ -1,2 +1,1 @@
-This is my summary on php oop
-!!!
+Abstract classes are blueprints of a specific object, which means the class can't be instantiated
