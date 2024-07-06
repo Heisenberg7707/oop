@@ -1,17 +1,17 @@
 <?php
 declare(strict_types = 1);
 
+spl_autoload_register(function($class){
+    $path = __DIR__ . '/../' . str_replace('\\', '/', $class) . '.php';
+    require $path;
+    echo $path;
+});
+
 use App\Formatter;
 
-require __DIR__.'/../vendor/autoload.php';
-
 $f = Formatter::createInstance();
-
-echo 'Hello';
 $f->enter(4);
-echo 'world';
-
-
-
-
+echo 'Hello';
+$f->enter(10);
+echo 'World';
 ?>

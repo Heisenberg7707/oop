@@ -22,6 +22,9 @@ class Formatter
     {
         for($i=0; $i<$quantity; $i++)
         {
+            if($i>0){
+                echo '.....';
+            }
             echo '</br>';
         }
     }
