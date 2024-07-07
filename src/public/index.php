@@ -10,7 +10,6 @@ echo 'hello';
 $f->enter(4);
 echo 'world';
 $f->enter(2);
-echo intdiv(11, 2);
 
 
 
