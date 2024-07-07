@@ -20,8 +20,11 @@ class Formatter
 
     public function enter(int $quantity):void
     {
-        for($i=0; $i<$quantity; $i++)
+        for($i=0; $i<$quantity+1; $i++)
         {
+            if($i!==0){
+                echo '.....';
+            }
             echo '</br>';
         }
     }

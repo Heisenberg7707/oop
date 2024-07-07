@@ -6,11 +6,11 @@ use App\Formatter;
 require __DIR__.'/../vendor/autoload.php';
 
 $f = Formatter::createInstance();
-
-echo 'Hello';
+echo 'hello';
 $f->enter(4);
 echo 'world';
-
+$f->enter(2);
+echo intdiv(11, 2);
 
 
 
