@@ -1,14 +1,14 @@
 <?php
 class PaymentProfile
 {
-    public int $id;
+    private ?Id $id = null;
 
-    public function __construct()
+    public function setId(Id $id):void
     {
-        $this->id = rand();
+        $this->id = $id;
     }
 
-    public function getId()
+    public function getId(): ?Id
     {
         return $this->id;
     }
