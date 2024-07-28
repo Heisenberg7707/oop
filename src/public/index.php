@@ -13,6 +13,8 @@ $file_path = FILE_PATH . 'sample_1.csv';
 
 $transactions = get_transactions($file_path);
 
+$totals = get_totals($transactions);
+
 
 
 require VIEW_PATH . 'transaction.php';
